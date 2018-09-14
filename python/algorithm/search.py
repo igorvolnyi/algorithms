@@ -30,3 +30,5 @@ def binary_search(alist, value, is_sorted=True):
         i = int((iend - ibegin) / 2)
     elif value > alist[i+1]:
         ibegin = i + 1
+
+    return 0
